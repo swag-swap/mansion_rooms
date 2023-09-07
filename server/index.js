@@ -2,7 +2,7 @@ import pathfinding from "pathfinding";
 import { Server } from "socket.io";
 const io = new Server({
   cors: {
-    origin: "http://localhost:5173",
+    origin: "https://game-s-d.netlify.app",
   },
 });
 
